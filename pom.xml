@@ -60,7 +60,7 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.3.7</version>
+            <version>42.5.0</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
@@ -171,7 +171,7 @@
                         </database>
 
                         <target>
-                            <packageName>io.tntra.springBootcamp</packageName>
+                            <packageName>io.tntra.demo2Jooq</packageName>
                             <directory>generated/jooq</directory>
                         </target>
 

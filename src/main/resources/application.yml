@@ -1,0 +1,10 @@
+spring:
+ datasource:
+   driver-class-name: org.postgresql.Driver
+   url: ${DATABASE_URL}
+   username: ${DATABASE_USERNAME}
+   password:
+ flyway:
+   locations:
+   classpath: db/migration
+   enabled: false
